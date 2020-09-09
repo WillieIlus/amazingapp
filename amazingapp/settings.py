@@ -108,6 +108,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 if os.environ.get("CAPROVER") is None:
-    pass
+    from .settings_dev import *
 else:
-    pass
+    from .settings_cap import *
