@@ -1,4 +1,4 @@
 {
   "schemaVersion": 2,
-  "templateId": "python-django/python:3.6.3-alpine"
+  "templateId": "python-django/3.7.0a3"
  }
